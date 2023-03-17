@@ -5,6 +5,6 @@ def PersistenceBugger(n):
         a=str(n)
         result = 1
         for i in a:
-            result*=i
+            result*=int(i)
         n=result
     return count
